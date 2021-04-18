@@ -5,13 +5,9 @@ import matplotlib as plt
 
 def RysujGeom(x_range,WEZLY,ELEMENTY,types):
     
-# =============================================================================
-#     il_wezlow=WEZLY.Size()
-#     y=np.zeros((il_wezlow,1))
-#     plt.plot(WEZLY[:,1],y,'r.')
-# =============================================================================
+
     
-    #def plot_geo(x_range, nodes,types):
+
     
     plt.plot(x_range[0],0,'*') #x_range[0]
     plt.plot(x_range[1],0,'*') #x_range[1]
