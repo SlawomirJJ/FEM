@@ -27,3 +27,4 @@ def RysujGeom(x_range,WEZLY,ELEMENTY,types):
     
     plt.xlim([x_range[0]-0.3,x_range[1]+0.3])
     plt.ylim([-0.2,0.42])
+

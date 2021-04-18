@@ -26,4 +26,3 @@ def GenerujTabliceGeometrii (x_range):
     return WEZLY, sections
 
 
-

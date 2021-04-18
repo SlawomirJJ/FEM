@@ -11,3 +11,4 @@ def MacierzWsp(array):
     conditions = np.array([array[2], array[3]])
     types = np.array([array[4], array[5]])
     return x_range, conditions, types
+
