@@ -49,7 +49,6 @@ wwb_L=0
 wwb_P=1
 
 
-#GenerujTabliceGeometrii(1)
 
 
 

@@ -25,5 +25,5 @@ def GenerujTabliceGeometrii (x_range):
 
     return nodes, sections
 
-print(GenerujTabliceGeometrii(1))
+
 
