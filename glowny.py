@@ -11,6 +11,14 @@ import sys
 import matplotlib.pyplot as plt
 
 
+#from funkcje import *
+# =============================================================================
+# import "MacierzWsp.py"
+# import GenerujTabliceGeometrii.py
+# import RysujGeom.py
+# =============================================================================import GenerujTabliceGeometrii
+form 'D:\SlawomirJJ\projekty\FEM' import GenerujTabliceGeometrii.py
+
 #parametry sterujące
 c=0
 f=0
@@ -50,10 +58,12 @@ wwb_P=1
 
 
 
-x_range, conditions, types = MacierzWsp([-1,2,-1,3,'N','D'])
-print('x range', x_range)
-print('conditions', conditions)
-print('types', types)
+# =============================================================================
+# x_range, conditions, types = MacierzWsp([-1,2,-1,3,'N','D'])
+# print('x range', x_range)
+# print('conditions', conditions)
+# print('types', types)
+# =============================================================================
 
 WEZLY, sections = GenerujTabliceGeometrii(x_range)
 print('WEZLY', WEZLY)
