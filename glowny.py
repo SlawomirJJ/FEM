@@ -50,6 +50,16 @@ wwb_P=1
 
 
 
+x_range, conditions, types = MacierzWsp([-1,2,-1,3,'N','D'])
+print('x range', x_range)
+print('conditions', conditions)
+print('types', types)
+#1b
+WEZLY, sections = GenerujTabliceGeometrii(x_range)
+print('WEZLY', WEZLY)
+print('sections', sections)
+#1c
+RysujGeom(x_range, WEZLY,types)
 
 
 
